@@ -1,0 +1,22 @@
+:root {
+
+    /* Roxo principal */
+    --cor-primaria: #521D59;
+
+    /* Roxo escuro */
+    --cor-secundaria: #321340;
+
+    /* Roxo claro */
+    --cor-terciaria: #836C8C;
+
+    /* Azul gelo */
+    --cor-destaque: #6FA0BF;
+
+    /* Fundo claro */
+    --cor-fundo: #F2F2F2;
+
+    /* Texto */
+    --cor-texto-claro: #FFFFFF;
+    --cor-texto-escuro: #321340;
+
+}
