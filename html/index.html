@@ -5,28 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glacius Açaí</title>
     <link rel="shortcut icon" href="../img/favIcon.png" type="image/x-icon">
-    link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
-    <header>
-            <nav>
-                <div class="logo">
-                    <h1>Padaria Palmas</h1>
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#contato">Contato</a></li>
+<body  id="body-site">
+    <!-- HEADER -->
+<header>
+
+    <nav class="navbar navbar-expand-lg" id="navbar-principal">
+
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                Glácius Açaí
+            </a>
+
+            <!-- Botão mobile -->
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu-navegacao"
+                aria-controls="menu-navegacao"
+                aria-expanded="false"
+                aria-label="Abrir menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <!-- Menu -->
+            <div
+                class="collapse navbar-collapse"
+                id="menu-navegacao">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="#secao-home">
+
+                            Início
+
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="#secao-cardapio">
+
+                            Cardápio
+
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="#secao-sobre">
+
+                            Sobre
+
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="#secao-contato">
+
+                            Contato
+
+                        </a>
+                    </li>
+
                 </ul>
-            </nav>
-    </header>
-    <main>
 
-    </main>
-    <footer>
+                <!-- Botão Sacola -->
+                <button
+                    id="botao-sacola"
+                    class="btn btn-primary ms-3">
 
+                    Sacola
 
-    </footer>
+                    <span id="contador-sacola">
+                        0
+                    </span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+</header>
 </body>
 </html>
