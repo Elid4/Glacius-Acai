@@ -24,12 +24,20 @@
 #navbar-principal {
     background-color: var(--cor-secundaria);
     z-index: 1000;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .navbar-brand {
     color: var(--cor-texto-claro);
     font-weight: bold;
     font-size: 1.5rem;
+
+     text-shadow: 0 0 10px var(--cor-destaque);
 }
 
 .navbar-brand:hover {
@@ -44,12 +52,27 @@
     color: var(--cor-destaque);
 }
 
+.nav-hidden {
+    transform: translateY(-100%);
+}
+
+.navbar-shadow {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-brand,
+.nav-link {
+    transition: color 0.2s ease;
+}
+
 #botao-sacola {
     background-color: var(--cor-destaque);
     border: none;
     color: var(--cor-texto-claro);
+    transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 #botao-sacola:hover {
     background-color: var(--cor-terciaria);
+    transform: scale(1.05);
 }
