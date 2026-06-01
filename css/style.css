@@ -20,3 +20,36 @@
     --cor-texto-escuro: #321340;
 
 }
+
+#navbar-principal {
+    background-color: var(--cor-secundaria);
+    z-index: 1000;
+}
+
+.navbar-brand {
+    color: var(--cor-texto-claro);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-brand:hover {
+    color: var(--cor-terciaria);
+}
+
+.nav-link {
+    color: var(--cor-texto-claro);
+}
+
+.nav-link:hover {
+    color: var(--cor-destaque);
+}
+
+#botao-sacola {
+    background-color: var(--cor-destaque);
+    border: none;
+    color: var(--cor-texto-claro);
+}
+
+#botao-sacola:hover {
+    background-color: var(--cor-terciaria);
+}
